@@ -173,6 +173,8 @@ a:focus {
 @media (min-width: 768px) {
   html {
     padding: 48px 48px 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   h1 {
     font-size: 58px;
